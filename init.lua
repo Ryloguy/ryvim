@@ -37,4 +37,4 @@ vim.cmd([[colorscheme ayu]])
 vim.cmd([[let ayucolor="dark"]])
 
 -- Neovide Configuration
-vim.cmd('source neovide.vim')
+vim.cmd('source ~/.config/nvim/neovide.vim')
