@@ -38,3 +38,6 @@ vim.cmd([[let ayucolor="dark"]])
 
 -- Neovide Configuration
 vim.cmd('source ~/.config/nvim/neovide.vim')
+
+-- Mason Configuration
+require("mason").setup()
