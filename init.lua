@@ -17,7 +17,7 @@ vim.o.termguicolors = true
 vim.cmd([[syntax on]])
 
 -- Maps
-vim.api.nvim_set_keymap('n', 'F8', ':TagbarToggle<CR>', {silent = true})
+vim.api.nvim_set_keymap('n', '<F8>', ':TagbarToggle<CR>', {silent = true})
 
 -- VimPlug
 local Plug = vim.fn['plug#']
