@@ -30,6 +30,16 @@ Plug 'Yggdroot/indentline'
 Plug 'pedrohdz/vim-yaml-folds'
 Plug 'lambdalisue/suda.vim'
 Plug 'williamboman/mason.nvim'
+Plug 'neovim/nvim-lspconfig'
+Plug 'williamboman/mason-lspconfig.nvim'
+Plug 'mfussenegger/nvim-dap'
+Plug 'jose-elias-alvarez/null-ls.nvim'
+Plug 'mfussenegger/nvim-lint'
+Plug 'mhartington/formatter.nvim'
+Plug 'nvim-telescope/telescope.nvim'
+Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-tree/nvim-web-devicons'
+Plug 'nvim-treesitter/nvim-treesitter'
 vim.call('plug#end')
 
 -- Colorscheme
